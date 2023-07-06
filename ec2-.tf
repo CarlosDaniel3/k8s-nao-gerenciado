@@ -7,7 +7,7 @@ resource "aws_instance" "control_plane" {
   associate_public_ip_address = true
 
   tags = {
-    Name = "ec2_instance"
+    Name = "Control Plane"
   }
 }
 
@@ -21,6 +21,6 @@ resource "aws_instance" "worker_node" {
   associate_public_ip_address = true
 
   tags = {
-    Name = "ec2_instance"
+    Name = "Worker Node"
   }
 }
