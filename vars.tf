@@ -7,7 +7,7 @@ variable "aws_region" {
 variable "instance_type" {
   description = "AWS Instance type defines the hardware configuration of the machine."
   type        = string
-  default     = "t2.micro"
+  default     = "t2.medium"
 }
 
 variable "number_of_instances" {
